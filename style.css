@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    height: 50%;
+    width: 100vw;
+}
+
+.between{
+      margin: 10px;
+    display: inline;
+    float: right;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    margin: 10px;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    color: white;
+}
+
+
+.number{
+    position: absolute;
+     left: 35%;
+      height: 7rem;
+    width: 10rem;
+    background: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    padding: 0%;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+}
+
+.line{
+    position: absolute;
+    top:43%;
+    z-index: -2;
+    height: 1rem;
+    width: 100%;
+    background: white;
+}
+
+.left{
+    flex: 1;
+}
+
+input{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 7rem;
+    width: 9rem;
+    background: none;
+    border: 7px solid white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-left: 50px;
+    color: white;
+}
+
+
+.btn{
+    display: block;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.right{
+    flex: 1;
+}
+
+.message{
+    margin: 60px 0px;
+}
+
+p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
